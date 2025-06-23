@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    CircleCollider2D playerCollider;
+    Collider2D playerCollider;
     public LayerMask collisionMask;
     public LayerMask collisionMaskStatic;
 
@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerCollider = GetComponent<CircleCollider2D>();
+        playerCollider = GetComponent<Collider2D>();
         gameController = FindFirstObjectByType<Controller>();
     }
 
