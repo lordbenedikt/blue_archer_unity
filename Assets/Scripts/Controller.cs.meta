@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8d5be82befdd05d49a9da707478d9061
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wallPrefab: {instanceID: 0}
+  - groundPrefab: {instanceID: 0}
+  - torchPrefab: {instanceID: 0}
+  - spikesPrefab: {instanceID: 0}
+  - exitPrefab: {instanceID: 0}
+  - skeletonPrefab: {instanceID: 0}
+  - levelObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
